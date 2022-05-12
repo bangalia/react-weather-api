@@ -1,0 +1,10 @@
+h1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0;
+  }
+  
+  span {
+    display: flex;
+    align-self: center;
+  }

@@ -1,0 +1,43 @@
+.Weather {
+    padding: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #bd8cbe ;
+    background-color: #fff;
+}
+  
+.Weather > form input,button {
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0;
+}
+  
+.Weather > form input {
+    border: 1px solid #bd8cbe;
+    border-radius: 0.5rem 0 0 0.5rem;
+    color: #5e3c66
+}
+  
+.Weather > form button {
+    border: 1px solid #bd8cbe;
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: #bd8cbe;
+    color: white;
+}
+  
+.Weather > form button:hover {
+    cursor: pointer;
+    background-color: #9f76a0;
+}
+  
+.Weather > form > select {
+    margin: 1rem 0 ;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    border: 1px solid #5e3c66;
+    color: #5e3c66;
+}

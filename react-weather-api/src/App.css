@@ -1,0 +1,15 @@
+.App {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  background-color: #a882b1;
+  background-image: url(https://64.media.tumblr.com/162cc3dfa5cef6c882aba5453445f0fb/tumblr_mx3y1yYFad1qcm0eto1_1280.png);
+  font-size: 16px;
+  text-align: center;
+  color: #5e3c66;
+}
